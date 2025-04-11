@@ -2,12 +2,10 @@ export interface IPost {
   __v: number;
   _id: string;
   body: string;
-  category:
-    | {
-        value: string;
-        label: string;
-      }[]
-    | string;
+  category: {
+    value: string;
+    label: string;
+  }[];
   createdAt: Date;
   id: string;
   image: string;
